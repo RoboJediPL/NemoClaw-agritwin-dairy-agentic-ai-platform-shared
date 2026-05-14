@@ -1,11 +1,12 @@
 {
-  "name": "NemoClaw-agritwin-dairy-agentic-ai-platform-shared",
+  "name": "@robo-jedi-pl/agritwin-shared",
   "version": "0.1.0",
   "type": "module",
   "description": "Shared schemas and contracts for AgriTwin Dairy Agentic AI Platform",
   "main": "entities/index.mjs",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "dev": "node --watch --test"
   },
   "dependencies": {},
   "devDependencies": {}
